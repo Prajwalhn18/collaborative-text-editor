@@ -1,4 +1,4 @@
-const socket = io("localhost:3001");
+const socket = io("https://collab-texteditor.herokuapp.com/");
 
 const editor = document.getElementById('textEditor');
   editor.addEventListener("keyup",(evt)=>{
